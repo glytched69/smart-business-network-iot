@@ -9,6 +9,12 @@ A Cisco Packet Tracer simulation of a small business network combining segmentat
 
 *Original project topology: offices, network infrastructure and smart-building devices.*
 
+## Objective
+
+Connect business offices and smart-building devices while separating traffic and maintaining gateway availability. The simulation combines logical network controls with physical-security scenarios.
+
+**Explore:** [Download the Packet Tracer project](Topologie-projet-8.pkt) · [Segmentation, failover & IoT evidence](docs/project-overview.md)
+
 ## Network Design
 
 - Five VLANs: Employees, SOC/IT, IoT, Visitors and Management.
@@ -17,6 +23,12 @@ A Cisco Packet Tracer simulation of a small business network combining segmentat
 - HSRP gateway redundancy between two routers.
 - RFID access, fire monitoring, sprinklers and CCTV/motion scenarios.
 
+## Segmentation
+
+![Switch VLAN table showing separate employee, SOC, IoT, visitor and management segments](assets/vlan-segmentation.png)
+
+*VLAN assignments recorded in the project report. ACLs handle permitted traffic between segments; VLAN membership alone does not define all access rules.*
+
 ## Gateway Redundancy
 
 ![HSRP active and standby gateway states from the original report](assets/hsrp-status.png)
@@ -24,6 +36,12 @@ A Cisco Packet Tracer simulation of a small business network combining segmentat
 *Recorded HSRP status using simulated private IP addresses.*
 
 [IoT scenario and visual sources](docs/project-overview.md)
+
+## Smart-Building Monitoring
+
+![Motion detector, siren and CCTV states in the simulated IoT dashboard](assets/motion-supervision.png)
+
+*The report's motion-detection scenario links the sensor to siren and CCTV activation.*
 
 ## Opening the Simulation
 

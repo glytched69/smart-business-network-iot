@@ -15,6 +15,8 @@ Connect business offices and smart-building devices while separating traffic and
 
 **Explore:** [Download the Packet Tracer project](Topologie-projet-8.pkt) · [Segmentation, failover & IoT evidence](docs/project-overview.md)
 
+**Run:** Open the `.pkt` file in Cisco Packet Tracer 9.0.0. No code dependencies or physical equipment are needed. [Step-by-step reproduction, CLI commands and file checksum](docs/reproduce.md).
+
 ## Network Design
 
 - Five VLANs: Employees, SOC/IT, IoT, Visitors and Management.
